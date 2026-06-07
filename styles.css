@@ -614,8 +614,20 @@ footer li {
     border-radius:15px;
 
     margin-bottom:20px;
-}
-.chef-testimonial{
+  }
+  .testimonial-author img{
+    width:220px;
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+  }
+  .chef-testimonial{
     max-width:1200px;
     margin:80px auto;
 
@@ -632,27 +644,27 @@ footer li {
     align-items:center;
 
     gap:60px;
-}
+  }
 
-.chef-text{
+  .chef-text{
     flex:1;
-}
+  }
 
-.chef-line{
+  .chef-line{
     width:60px;
     height:3px;
     background:#8d5a4b;
     margin-bottom:30px;
-}
+  }
 
-.chef-text blockquote{
+  .chef-text blockquote{
     font-size:2rem;
     line-height:1.7;
     font-style:italic;
     color:#4b2f2f;
-}
+  }
 
-.chef-photo img{
+  .chef-photo img{
     width:260px;
     height:260px;
 
@@ -661,5 +673,5 @@ footer li {
     border-radius:50%;
 
     border:8px solid white;
-}
+  }
 }
